@@ -1,0 +1,1 @@
+print("this is third file of py file")
