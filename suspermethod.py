@@ -1,10 +1,10 @@
 class Parent():
-    def printmsg(self):
+    def print1msg(self):
         print('hi how are you')
 
 class Child(Parent):
     def printmsg(self):
-        super().printmsg()
+        super().print1msg()
         print('hi how are you... i am fine')
 
 ch1=Child()
